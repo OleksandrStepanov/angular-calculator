@@ -1,1 +1,1 @@
-# angular-calculator
+http://oleksandrstepanov.github.io/angular-calculator
