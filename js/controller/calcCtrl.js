@@ -1,12 +1,10 @@
 app.controller("calcCtrl", ['$scope', '$location', '$state', function($scope, $location, $state) {
-    $scope.modeBtn = $location.url() == '/advanced' ? 'Simple' : 'Advanced';
-    $scope.state = $location.url() == '/advanced' ? 'advanced' : 'simple';
+    $scope.modeBtn = $location.url() == '/' ? 'Simple' : 'Advanced';
     $scope.calculation = '';
     $scope.expression = null;
     $scope.isDot = false;
     $scope.changeMode = function(){
         $scope.state = $scope.state == 'advanced' ? 'simple' : 'advanced';
-        $state.go($scope.state);
         $scope.modeBtn = $scope.modeBtn == 'Advanced' ? 'Simple' : 'Advanced';
         $scope.modeName = $scope.modeName == 'advanced' ? '' : 'advanced';
     }

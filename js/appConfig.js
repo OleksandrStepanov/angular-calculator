@@ -3,10 +3,6 @@ app.config(function($stateProvider, $urlRouterProvider) {
     $stateProvider
     .state('simple', {
         url: '/',
-        templateUrl: 'templates/simple_mode.html'
-    })
-    .state('advanced', {
-      url: '/advanced',
-      templateUrl: 'templates/advanced_mode.html'
+        templateUrl: 'templates/calculator.html'
     })
 });
