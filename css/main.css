@@ -1,0 +1,43 @@
+
+.container {
+max-width: 500px;
+background-color: #a1c;
+border-radius: 25px;
+}
+.calcbutton{
+text-align: center;
+cursor: pointer;
+font-weight: bold;
+font-size: 1em;
+height: 4em;
+background-color: grey;
+border-radius: 15px;
+max-width: 6.8em;
+margin-top: 0.3em;
+line-height: 4em;
+} 
+.col-xs-3 :hover{
+background-color: cyan;
+}
+.calcname{
+font-family: 'Aldrich', sans-serif; 
+text-align: center;
+}
+.display {
+text-align: right;
+line-height: 1.5em;
+font-weight: bold;
+font-size: 2em;
+min-height: 60px;
+background-color: lightblue;
+word-break: break-all;
+}
+.save-btn .btn{
+margin-bottom: 25px;
+}
+.top{
+margin-top: 25px;
+}
+.bottom{
+margin-bottom: 25px;
+}
